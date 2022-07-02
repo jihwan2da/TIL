@@ -1,7 +1,7 @@
 # StringBuilder vs StringBuffer  
   
 
-####String vs StringBuilder, StringBuffer  
+#### String vs StringBuilder, StringBuffer  
 ```
 우선 Java에서 문자열을 선언하기 위해 String과 StringBuilder StringBuffer  
 를 사용한다. String이 이 위의 둘과의 차이점에 대해서 먼저 알아보겠다.  
@@ -46,7 +46,7 @@ StringBuffer 또는 StringBuilder로 선언된 문자열은 값을 변경해도 
 그러면 StringBuilder와 String Buffer의 차이점은 무엇일까?
 ```
   
-####StringBuilder vs StringBuffer  
+#### StringBuilder vs StringBuffer  
 ```
 둘의 차이점은 동기화 지원 여부에 있다. 동기화를 지원 한다는 말은 멀티 쓰레드 환경에서 공유 자원에 접근할 때 안전 하다는 의미이다.  
 StringBuilder는 동기화를 지원하지 않지만, StringBuffer는 동기화를 지원한다.
